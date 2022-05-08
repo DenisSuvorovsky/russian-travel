@@ -1,11 +1,13 @@
 
 
+@import url(../vendor/normalize.css/normalize.css);
 @import url(../vendor/fonts/Inter/inter.css);
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__nav/header__nav.css);
 @import url(../blocks/header/__lang-list/header__lang-list.css);
 @import url(../blocks/header/__list-item/header__list-item.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
@@ -21,10 +23,10 @@
 @import url(../blocks/lead/__caption/lead__caption.css);
 
 @import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__article/intro__article.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/intro/__list-item/intro__list-item.css);
 @import url(../blocks/intro/__list-item-text/intro__list-item-text.css);
 @import url(../blocks/intro/__list-number/intro__list-number.css);
 
