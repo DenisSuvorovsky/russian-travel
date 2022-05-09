@@ -1,17 +1,31 @@
 .intro {
-    width: calc(100% - 2*148px);
-    margin: auto;
-    
-}
+    margin: 0 auto;
+    margin-top: 92px;
+    max-width: 984px;
+  }
+
+  
+  
 
 @media screen and (max-width: 1279px) {
     .intro {
-        width: calc(100% - 2*48px);
+      max-width: 928px;
+      padding: 0 48px;
     }
-}
-
-@media screen and (max-width: 1023px) {
+  }
+  
+  @media screen and (max-width: 1023px) {
     .intro {
-        width: calc(100% - 2*24px);
+      max-width: 720px;
+      margin-top: 88px;
+      padding: 0 24px;
     }
-}
+  }
+  
+  @media screen and (max-width: 767px) {
+    .intro {
+      max-width: 288px;
+      margin-top: 64px;
+      padding: 0 16px;
+    }
+  }
