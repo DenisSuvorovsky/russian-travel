@@ -1,13 +1,19 @@
-# Проект: Путешествие по России
+# Путешествие по России/Russian Travel
 
-
-https://denissuvorovsky.github.io/russian-travel/index.html
 ### Описание
-Проект Russian-travel - третья проетная работа для Яндекс Практикума. Работа с использованием адаптивной верстки, медиа запросов и относительных величин.
+Проект Russian travel - третья проектная работа посвященная путешествиям по России.
 
 **Технологии**
-* CSS
-* Grid
-* Flexbox
-* Adaptive
+* CSS(Grid layout, Flexbox).
+* HTML.
 
+
+**Планы по доработке**
+* Навигация в шапке сайта
+* Дополнительные брейкпоинты
+* Переключаине языка
+* Анимированные секции
+
+**GitHub Pages**
+
+https://denissuvorovsky.github.io/russian-travel/index.html
