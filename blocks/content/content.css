@@ -1,19 +1,18 @@
 .content {
-    margin: 0 auto;
-    grid-row-gap: 92px;
-    max-width: 1440px;
-  }
-  
-  @media screen and (max-width: 1023px) {
-    .content {
-      grid-row-gap: 88px;
-    }
-  }
+  margin: 0 auto;
+  grid-row-gap: 92px;
+  max-width: 1440px;
+}
 
-
-  @media screen and (max-width: 767px) {
-    .content {
-      max-width: 320px;
-      grid-row-gap: 64px;
-    }
+@media screen and (max-width: 1023px) {
+  .content {
+    grid-row-gap: 88px;
   }
+}
+
+@media screen and (max-width: 767px) {
+  .content {
+    max-width: 320px;
+    grid-row-gap: 64px;
+  }
+}
