@@ -14,3 +14,14 @@
         max-width: 340px;
     }
   }
+
+  @media screen and (max-width: 767px) {
+    .place__title {
+      font-size: 32px;
+      line-height: 1.09;
+      order: -2;
+      align-self: auto;
+      padding: 0 16px 0 16px;
+      margin-top: 0;
+    }
+  }

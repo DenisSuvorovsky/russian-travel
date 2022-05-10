@@ -1,11 +1,13 @@
 .place {
-    padding-bottom: 80px;
+    margin-top: 92px ;
+    margin-bottom: 80px;
     display: grid;
     gap: 48px 40px;
     grid-template-columns: 460px 1fr;
 }
 
 .place:last-child {
+    margin-bottom: 0;
     padding-bottom: 0;
 }
 
@@ -20,6 +22,17 @@
     .place {
         gap: 48px 28px;
         grid-template-columns: 340px 1fr;
-        padding-bottom: 73px;
+        padding-bottom: 72px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place {
+        display: flex;
+        gap: 32px;
+        flex-direction: column;
+        padding-bottom: 50px;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 }

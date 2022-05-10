@@ -12,3 +12,16 @@
     opacity: 0.8;
     transition: opacity 0.3s ease-in;
 }
+
+
+
+@media  screen and (max-width: 767px) {
+    .footer__link {
+        display: flex;
+        margin-bottom: 32px;
+        font-size: 24px;
+        line-height: 1;   
+    }
+}
+
+

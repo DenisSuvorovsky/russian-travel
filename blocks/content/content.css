@@ -1,6 +1,5 @@
 .content {
     margin: 0 auto;
-    display: grid;
     grid-row-gap: 92px;
     max-width: 1440px;
   }
