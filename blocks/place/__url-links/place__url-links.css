@@ -8,5 +8,6 @@
   .place__url-links {
     order: -1;
     padding: 0 16px 0 16px;
+    align-self: flex-start;
   }
 }
