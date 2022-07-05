@@ -14,6 +14,6 @@
 * Переключаине языка
 * Анимированные секции
 
-**GitHub Pages**
+**Ссылка на проект GitHub Pages**
 
 https://denissuvorovsky.github.io/russian-travel/index.html
